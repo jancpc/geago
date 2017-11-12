@@ -245,6 +245,7 @@ button:focus {
 	width: 100%;
 }
 
+
 .mu-logo {
 	font-size: 35px;
 	font-family: 'Montserrat', sans-serif;
@@ -253,6 +254,7 @@ button:focus {
 	background: #fff;
 	padding: 5px 20px;
 	margin-bottom: 30px;
+
 }
 
 
@@ -1351,7 +1353,16 @@ button:focus {
 /* RESPONSIVE STYLE */
 /*--------------------*/
 
+@media (max-width: 11199px) {
+	.mu-logo img {
+		width: 250px;
+	}
+}
+
 @media (max-width: 1199px) {
+	.mu-logo img {
+		width: 250px;
+	}
 
 	.mu-register-content {
 		padding: 0 150px;
@@ -1378,7 +1389,10 @@ button:focus {
 		
 }
 
-@media (max-width: 991px) {	
+@media (max-width: 991px) {
+	.mu-logo img {
+		width: 250px;
+	}
 
 	.mu-primary-btn {
 		font-size: 14px;
