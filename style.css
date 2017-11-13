@@ -877,6 +877,7 @@ button:focus {
 	width: 100%;
 	padding: 15px;
 	overflow: hidden;
+	margin: auto;
 }
 
 .mu-single-price-head {
