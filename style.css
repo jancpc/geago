@@ -734,7 +734,7 @@ button:focus {
 
 .mu-speakers-content{
 	display: inline;
-	float: left;
+	float: inherit;
 	margin-top: 50px;
 	width: 100%;
 }
